@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://demo.vercel.pub">
+  <a href="https://demo.hanliacademy.co.za">
     <img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="96">
     <h3 align="center">Platforms Starter Kit</h3>
   </a>
@@ -13,8 +13,8 @@
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
   <a href="https://vercel.com/guides/nextjs-multi-tenant-application"><strong>Guide</strong></a> ·
-  <a href="https://demo.vercel.pub/"><strong>Demo</strong></a> ·
-  <a href="https://steven.vercel.pub/kitchen-sink"><strong>Kitchen Sink</strong></a> ·
+  <a href="https://demo.hanliacademy.co.za/"><strong>Demo</strong></a> ·
+  <a href="https://steven.hanliacademy.co.za/kitchen-sink"><strong>Kitchen Sink</strong></a> ·
   <a href="#contributing"><strong>Contributing</strong></a>
 </p>
 <br/>
@@ -25,13 +25,13 @@
 
 ## Introduction
 
-Multi-tenant applications serve multiple customers across different subdomains/custom domains with a single unified codebase. 
+Multi-tenant applications serve multiple customers across different subdomains/custom domains with a single unified codebase.
 
 For example, our demo is a multi-tenant application:
 
-- Subdomain: [demo.vercel.pub](http://demo.vercel.pub)
-- Custom domain: [platformize.co](http://platformize.co) (maps to [demo.vercel.pub](http://demo.vercel.pub))
-- Build your own: [app.vercel.pub](http://app.vercel.pub)
+- Subdomain: [demo.hanliacademy.co.za](http://demo.hanliacademy.co.za)
+- Custom domain: [platformize.co](http://platformize.co) (maps to [demo.hanliacademy.co.za](http://demo.hanliacademy.co.za))
+- Build your own: [app.hanliacademy.co.za](http://app.hanliacademy.co.za)
 
 Another example is [Hashnode](https://vercel.com/customers/hashnode), a popular blogging platform. Each writer has their own unique `.hashnode.dev` subdomain for their blog:
 
@@ -60,7 +60,7 @@ Vercel customers like [Hashnode](https://vercel.com/customers/hashnode), [Super]
 
 ### 1. Content creation platforms
 
-These are content-heavy platforms (blogs) with simple, standardized page layouts and route structure. 
+These are content-heavy platforms (blogs) with simple, standardized page layouts and route structure.
 
 > “With Vercel, we spend less time managing our infrastructure and more time delivering value to our users.” — Sandeep Panda, Co-founder, Hashnode
 
@@ -70,7 +70,7 @@ These are content-heavy platforms (blogs) with simple, standardized page layouts
 
 ### 2. Website & e-commerce store builders
 
-No-code site builders with customizable pages. 
+No-code site builders with customizable pages.
 
 By using Next.js and Vercel, [Super](https://super.so/) has fast, globally distributed websites with a no-code editor (Notion). Their customers get all the benefits of Next.js (like [Image Optimization](https://nextjs.org/docs/basic-features/image-optimization)) without touching any code.
 
@@ -82,7 +82,7 @@ By using Next.js and Vercel, [Super](https://super.so/) has fast, globally distr
 
 Multi-tenant authentication, login, and access controls.
 
-With Vercel and Next.js, platforms like [Instatus](https://instatus.com) are able to create status pages that are *10x faster* than competitors.
+With Vercel and Next.js, platforms like [Instatus](https://instatus.com) are able to create status pages that are _10x faster_ than competitors.
 
 1. [Instatus](https://instatus.com/)
 2. [Cal.com](https://cal.com/)

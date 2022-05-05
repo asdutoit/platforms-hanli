@@ -20,7 +20,7 @@ export default function middleware(req: NextRequest) {
   // Only for demo purposes – remove this if you want to use your root domain as the landing page
   if (
     hostname === "hanliacademy.co.za" ||
-    hostname === "platforms.vercel.app"
+    hostname === "platforms-hanli.vercel.app"
   ) {
     return NextResponse.redirect("https://demo.hanliacademy.co.za");
   }

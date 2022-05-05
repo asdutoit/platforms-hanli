@@ -170,7 +170,7 @@ export async function deletePost(
     });
     if (response) {
       await revalidate(
-        `https://${response.site?.subdomain}.vercel.pub`,
+        `https://${response.site?.subdomain}.hanliacademy.co.za`,
         response.slug
       ); // revalidate for subdomain
     }
@@ -233,7 +233,8 @@ export async function updatePost(
         published,
       },
     });
-    if (subdomain) await revalidate(`https://${subdomain}.vercel.pub`, slug); // revalidate for subdomain
+    if (subdomain)
+      await revalidate(`https://${subdomain}.hanliacademy.co.za`, slug); // revalidate for subdomain
     if (customDomain) await revalidate(`https://${customDomain}`, slug); // revalidate for custom domain
 
     return res.status(200).json(post);
