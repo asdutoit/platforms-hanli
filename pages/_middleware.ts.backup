@@ -32,7 +32,7 @@ export default function middleware(req: NextRequest) {
         // in this case, our team slug is "platformize", thus *.platformize.vercel.app works
         hostname
           .replace(`.hanliacademy.co.za`, "")
-          .replace(`.platformize.vercel.app`, "")
+          .replace(`.lighttree.vercel.app`, "")
       : hostname.replace(`.localhost:3000`, "");
 
   if (pathname.startsWith(`/_sites`))
