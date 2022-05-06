@@ -42,6 +42,7 @@ export default function middleware(req: NextRequest) {
 
   if (!pathname.includes(".") && !pathname.startsWith("/api")) {
     if (currentHost == "app") {
+      console.log("APP", currentHost);
       if (
         pathname === "/login" &&
         (req.cookies["next-auth.session-token"] ||
@@ -57,8 +58,10 @@ export default function middleware(req: NextRequest) {
 
     if (
       hostname === "localhost:3000" ||
-      hostname === "platformize.vercel.app"
+      hostname === "lighttree.vercel.app" ||
+      hostname.includes("lighttree.vercel.app")
     ) {
+      console.log("HOME");
       url.pathname = `/home`;
       return NextResponse.rewrite(url);
     }
